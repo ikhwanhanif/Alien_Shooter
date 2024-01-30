@@ -1,0 +1,5 @@
+<!-- res/drawable/rounded_corner_dialog_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="10dp" /> <!-- Set the radius as per your preference for rounded corners -->
+    <solid android:color="#AEAEAE" /> <!-- Set the background color of the dialog -->
+</shape>

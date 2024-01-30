@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alien Shooter</string>
+
+    <string name="privacy_policy_link" translatable="false">
+        https://www.termsfeed.com/live/08213bac-3541-4540-a154-dfc2c81228d8
+    </string>
+    <string name="play_store_link" translatable="false">
+        https://play.google.com/store/apps/dev?id=7862095023254906088
+    </string>
+
+    <string name="choose_language"> Choose Language :</string>
+    <string name="perbanyak_score_dengan_menembak_pesawat_alien_nyawa_akan_bertambah_1_ketika_score_mencapai_10_30_60_dan_game_akan_berakhir_ketika_score_mencapai_100_atau_nyawa_habis">Increase Score By Shooting Alien Aircraft, Life Will Increase 1 When Score Reaches 10, 30, 60. And The Game Will End When Score Reaches 100 Or Life Is Out.</string>
+    <string name="you_did_it">You Did It !!!</string>
+    <string name="keluar">Exit</string>
+    <string name="your_score">Your Score :</string>
+    <string name="versi_1_0">version: 1.2</string>
+    <string name="language">Language</string>
+    <string name="lanjut">Next</string>
+    <string name="score">Score\u0020</string>
+
+    <string name="hapus_akun">Delete Account</string>
+    <string name="settings">Settings</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="don_t_have_an_account">don\'t have an account?\u0020</string>
+    <string name="play">Play</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="back">Back</string>
+    <string name="enter_your_email">enter your email</string>
+    <string name="enter_your_pass">Enter Your password</string>
+
+    <string name="anda_yakin_untuk_hapus_akun">Are You Sure Want To Delete Your Account?</string>
+    <string name="ya">Yes</string>
+    <string name="no">No</string>
+    <string name="sukses_menghapus_akun">Delete Account Success</string>
+    <string name="masukkan_email_yang_benar">Enter a valid email address</string>
+    <string name="password_harus_setidaknya_6_karakter">Password must be at least 6 characters</string>
+    <string name="password_dan_confirm_password_harus_sama">Passwords do not match</string>
+    <string name="sukses_daftar">Registration success</string>
+    <string name="gagal_daftar">Registration failed</string>
+    <string name="email_pass_has_been_sent">Email Reset Password Has Been Sent</string>
+    <string name="failed_to_sent_email_reset_pass">Failed To Sent Email Reset Password</string>
+    <string name="already_have_an_account">already have an account?\u0020</string>
+    <string name="dengan_mengklik_tombol_hijau_anda_akan_menerima_email_dari_ikhwan_hanif_untuk_mereset_password_anda">By clicking the Green Button, you will receive an email from Ikhwan_hanif to reset your password</string>
+</resources>

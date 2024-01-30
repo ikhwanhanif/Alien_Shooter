@@ -1,0 +1,10 @@
+<!-- custom_alert_dialog_title -->
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/reset_password"
+    android:gravity="center"
+    android:textSize="18sp"
+    android:textColor="#000000"
+    android:padding="16dp" />

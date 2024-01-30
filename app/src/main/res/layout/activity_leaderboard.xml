@@ -1,0 +1,36 @@
+<!-- activity_leaderboard.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="200dp"
+    android:paddingEnd="200dp"
+    android:paddingTop="50dp"
+    android:paddingBottom="50dp"
+    android:background="@drawable/background"
+    tools:context=".LeaderboardActivity">
+
+    <TextView
+        android:id="@+id/leaderboardTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:layout_marginBottom="30dp"
+        android:text="@string/leaderboard"
+        android:textSize="50sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_lb"
+        android:layout_below="@id/leaderboardTV"
+        android:divider="@color/black"
+        android:dividerHeight="1dp"
+        android:padding="16dp"/>
+</RelativeLayout>

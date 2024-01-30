@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Menu"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:textSize="60sp"/>
+
+    <LinearLayout
+        android:id="@+id/startLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/startBtn"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/baseline_play_circle_24"
+                android:backgroundTint="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/startText"
+                android:layout_width="wrap_content"
+                android:fontFamily="serif"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/play"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custombutton"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        >
+        <ImageView
+            android:id="@+id/settings"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/baseline_settings_24"
+            app:tint="@color/white" />
+        <ImageView
+            android:id="@+id/infoBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/baseline_info_24"
+            app:tint="@color/white" />
+        <ImageView
+            android:id="@+id/leaderBoard"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/baseline_leaderboard_24"
+            app:tint="@color/white" />
+        <ImageView
+            android:id="@+id/privacyPolicy"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/privacy_policy"
+            app:tint="@color/white" />
+        <ImageView
+            android:id="@+id/logOut"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/baseline_logout_24"
+            app:tint="@color/white" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="serif"
+        android:text="@string/versi_1_0"
+        android:textColor="#8F8F8F" />
+
+</RelativeLayout>

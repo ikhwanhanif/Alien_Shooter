@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:background="@drawable/background"
+    tools:context=".Info">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="15dp"
+        android:background="@drawable/custombutton"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Info:"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:text="@string/perbanyak_score_dengan_menembak_pesawat_alien_nyawa_akan_bertambah_1_ketika_score_mencapai_10_30_60_dan_game_akan_berakhir_ketika_score_mencapai_100_atau_nyawa_habis"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnHowToShot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How To Shot"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

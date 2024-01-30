@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alien Shooter</string>
+
+    <string name="privacy_policy_link" translatable="false">
+        https://www.termsfeed.com/live/08213bac-3541-4540-a154-dfc2c81228d8
+    </string>
+    <string name="play_store_link" translatable="false">
+        https://play.google.com/store/apps/dev?id=7862095023254906088
+    </string>
+
+    <string name="choose_language"> Pilih Bahasa :</string>
+    <string name="perbanyak_score_dengan_menembak_pesawat_alien_nyawa_akan_bertambah_1_ketika_score_mencapai_10_30_60_dan_game_akan_berakhir_ketika_score_mencapai_100_atau_nyawa_habis">Perbanyak Score Dengan Menembak Pesawat Alien, Nyawa Akan Bertambah 1 Ketika Score Mencapai 10, 30, 60. Dan Game Akan Berakhir Ketika Score Mencapai 100 Atau Nyawa Habis.</string>
+    <string name="you_did_it">Anda Berhasil !!!</string>
+    <string name="keluar">Keluar</string>
+    <string name="your_score">Skor Anda :</string>
+    <string name="versi_1_0">versi: 1.2</string>
+    <string name="language">Bahasa</string>
+    <string name="lanjut">Lanjut</string>
+    <string name="score">Skor\u0020</string>
+
+    <string name="hapus_akun">Hapus Akun</string>
+    <string name="settings">Pengaturan</string>
+    <string name="leaderboard">Papan Skor</string>
+    <string name="forgot_password">lupa password?</string>
+    <string name="don_t_have_an_account">belum punya akun?\u0020</string>
+    <string name="play">Mulai</string>
+    <string name="reset_password">Setel Ulang Password</string>
+    <string name="back">Kembali</string>
+    <string name="enter_your_email">masukkan email anda</string>
+    <string name="enter_your_pass">Masukkan password Anda</string>
+
+    <string name="anda_yakin_untuk_hapus_akun">anda yakin untuk Hapus Akun?</string>
+    <string name="ya">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="sukses_menghapus_akun">Sukses Menghapus Akun</string>
+    <string name="masukkan_email_yang_benar">Masukkan Email Yang Benar</string>
+    <string name="password_harus_setidaknya_6_karakter">Password Harus Setidaknya 6 Karakter</string>
+    <string name="password_dan_confirm_password_harus_sama">Confirm Password Dan Password Harus Sama</string>
+    <string name="sukses_daftar">Berhasil Daftar</string>
+    <string name="gagal_daftar">Gagal Daftar</string>
+    <string name="email_pass_has_been_sent">Email reset password telah dikirim</string>
+    <string name="failed_to_sent_email_reset_pass">Gagal Mengirim Email reset password</string>
+    <string name="already_have_an_account">sudah punya akun?\u0020</string>
+    <string name="dengan_mengklik_tombol_hijau_anda_akan_menerima_email_dari_ikhwan_hanif_untuk_mereset_password_anda">Dengan mengklik Tombol Hijau, anda akan menerima email dari Ikhwan_hanif untuk mereset password anda</string>
+
+
+</resources>

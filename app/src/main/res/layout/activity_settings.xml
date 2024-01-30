@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SettingsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:layout_marginTop="40dp"
+        android:text="@string/settings"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        />
+
+    <LinearLayout
+        android:id="@+id/gantiBahasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_above="@id/textEmailUser"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:fontFamily="serif"
+            android:text="@string/language"
+            android:textColor="@color/white"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_keyboard_arrow_down_24"
+            app:tint="@color/white" />
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/textEmailUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/textEmailUser"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/toggleMuteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:layout_marginEnd="20dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:background="@drawable/background_edit_text"
+            android:text="Mute"/>
+
+        <Button
+            android:id="@+id/hapusAkun"
+            android:layout_width="wrap_content"
+            android:fontFamily="serif"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/background_edit_text"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/hapus_akun"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
