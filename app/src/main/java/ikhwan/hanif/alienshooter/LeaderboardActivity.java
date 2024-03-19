@@ -1,15 +1,19 @@
 package ikhwan.hanif.alienshooter;
 
+import android.content.DialogInterface;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.Gravity;
+import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -29,10 +33,20 @@ public class LeaderboardActivity extends AppCompatActivity {
     private DatabaseReference leaderboardRef;
     private ListView listView;
 
+    ImageView info;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_leaderboard);
+
+        info = findViewById(R.id.infoL);
+        info.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                showInfoDialog();
+            }
+        });
 
         leaderboardRef = FirebaseDatabase.getInstance().getReference("leaderboard");
         listView = findViewById(R.id.listView);
@@ -45,6 +59,20 @@ public class LeaderboardActivity extends AppCompatActivity {
 
 
 
+    }
+
+    private void showInfoDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Info");
+        builder.setMessage("Leaderboard akan menampilkan Skor user dari tertinggi sampai terendah, Untuk membuat permainan semakin menantang Skor yang akan ditampilkan di Leaderboard adalah skor yang baru saja di dapatkan, bukan HIGHSCORE.");
+        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+        AlertDialog dialog = builder.create();
+        dialog.show();
     }
 
     private void displayLeaderboard() {

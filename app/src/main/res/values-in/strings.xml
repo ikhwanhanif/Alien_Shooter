@@ -15,7 +15,7 @@
     <string name="you_did_it">Anda Berhasil !!!</string>
     <string name="keluar">Keluar</string>
     <string name="your_score">Skor Anda :</string>
-    <string name="versi_1_0">versi: 1.2</string>
+    <string name="versi_1_0">versi: 3.0</string>
     <string name="language">Bahasa</string>
     <string name="lanjut">Lanjut</string>
     <string name="score">Skor\u0020</string>
@@ -44,4 +44,12 @@
     <string name="failed_to_sent_email_reset_pass">Gagal Mengirim Email reset password</string>
     <string name="already_have_an_account">sudah punya akun?\u0020</string>
     <string name="dengan_mengklik_tombol_hijau_anda_akan_menerima_email_dari_ikhwan_hanif_untuk_mereset_password_anda">Dengan mengklik Tombol Hijau, anda akan menerima email dari Ikhwan_hanif untuk mereset password anda</string>
+    <string name="tekan_dimana_saja_untuk_lanjut1">tekan untuk lanjut</string>
+    <string name="tekan_dimana_saja_untuk_lanjut2">tekan untuk lanjut</string>
+    <string name="tekan_dimana_saja_untuk_lanjut3">tekan untuk lanjut</string>
+    <string name="tekan_dimana_saja_untuk_mulai">tekan untuk mulai</string>
+    <string name="text4">AlienShooter tidak hanya menghibur pemain dengan aksi yang cepat dan grafis yang memukau, tetapi juga menghadirkan cerita yang mendalam tentang keberanian, persahabatan, dan perjuangan melawan kejahatan di seluruh galaksi.</string>
+    <string name="text3">Saat mereka memasuki pertempuran terakhir di dekat pusat galaksi, pilot manusia menghadapi bos alien yang paling kuat. Dengan keberanian dan ketangguhan mereka, mereka berhasil mengalahkan bos tersebut dan mengusir armada alien dari galaksi, menyelamatkan koloni manusia dan memulihkan perdamaian di luar angkasa.</string>
+    <string name="text2">Selama perjalanan mereka melintasi berbagai sistem planet, pilot tersebut menghadapi berbagai tantangan dan rintangan. Mereka harus menghadapi serangan mendadak, menjinakkan pesawat alien yang ganas, dan menemukan kelemahan armada musuh.</string>
+    <string name="text1">Ketika armada alien muncul secara tiba-tiba dari lubang cacing di luar angkasa, pilot manusia yang berani segera dipanggil untuk bertempur. Dipersenjatai dengan pesawat ruang angkasa terbaru, pilot kita meluncur ke medan perang untuk melindungi koloni manusia dari ancaman alien yang misterius.</string>
 </resources>

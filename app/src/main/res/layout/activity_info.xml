@@ -37,9 +37,25 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/btnStory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Story"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+
+        />
+
+    <Button
         android:id="@+id/btnHowToShot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
         android:text="How To Shot"
         android:textAllCaps="false"
         android:textColor="@color/black"

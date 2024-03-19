@@ -15,7 +15,7 @@
     <string name="you_did_it">You Did It !!!</string>
     <string name="keluar">Exit</string>
     <string name="your_score">Your Score :</string>
-    <string name="versi_1_0">version: 1.2</string>
+    <string name="versi_1_0">version: 3.0</string>
     <string name="language">Language</string>
     <string name="lanjut">Next</string>
     <string name="score">Score\u0020</string>
@@ -44,4 +44,12 @@
     <string name="failed_to_sent_email_reset_pass">Failed To Sent Email Reset Password</string>
     <string name="already_have_an_account">already have an account?\u0020</string>
     <string name="dengan_mengklik_tombol_hijau_anda_akan_menerima_email_dari_ikhwan_hanif_untuk_mereset_password_anda">By clicking the Green Button, you will receive an email from Ikhwan_hanif to reset your password</string>
+    <string name="tekan_dimana_saja_untuk_lanjut1">press to continue</string>
+    <string name="tekan_dimana_saja_untuk_lanjut2">press to continue</string>
+    <string name="tekan_dimana_saja_untuk_lanjut3">press to continue</string>
+    <string name="tekan_dimana_saja_untuk_mulai">press to start</string>
+    <string name="text4">AlienShooter not only entertains players with fast-paced action and stunning graphics, but also delivers an immersive story about courage, friendship, and the fight against evil across the galaxy.</string>
+    <string name="text3">As they enter the final battle near the center of the galaxy, the human pilots face the aliens, most powerful bosses. With their courage and resilience, they manage to defeat the boss and drive the alien fleet from the galaxy, saving the human colony and restoring peace in space.</string>
+    <string name="text2">During their journey across various planetary systems, the pilots encounter various challenges and obstacles. They must face surprise attacks, tame vicious alien craft, and discover weaknesses in the enemy fleet.</string>
+    <string name="text1">When an alien fleet suddenly appears from a wormhole in space, brave human pilots are immediately called into battle. Armed with the latest spaceships, our pilots launch into battle to protect human colonies from a mysterious alien threat.</string>
 </resources>
