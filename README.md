@@ -1,7 +1,7 @@
 # Alien Shooter
 ![icon](app/src/main/res/drawable/icon_ufo.png)
 
-Screenshoot:
+## Screenshots
 ![IMG-20240131-WA0009](https://github.com/ikhwanhanif/Alien_Shooter/assets/108711453/9e5472cc-5def-421b-a348-9107c57c602b)
 ![IMG-20240131-WA0005](https://github.com/ikhwanhanif/Alien_Shooter/assets/108711453/7d984018-eed3-4c43-b088-dbf9dded873a)
 ![IMG-20240131-WA0006](https://github.com/ikhwanhanif/Alien_Shooter/assets/108711453/fcd3ea8e-de77-4c32-bde1-4ba54ee52ec8)
